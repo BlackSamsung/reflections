@@ -25,3 +25,11 @@ Thoughts:
 					don't want to introduced in your master branch.
 					Suppose you want to make different language version of your app then
 					you can use the branch feature.
+
+How do the diagrams help you visualize the branch structure?
+Thoughts:
+				Diagrams helps you to visualize the branch structure, each commit is
+				related to their parent commit and if there is any commit which is not
+				related to any branch we can easily find out by diagrams.
+
+				
