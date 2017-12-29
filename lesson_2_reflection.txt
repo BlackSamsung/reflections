@@ -1,7 +1,19 @@
 What happens when you initialize a repository? Why do you need to do it?
 Thoughts:
-	 When we initiliaze a repository, a .git files appear in the directory and now we can use git commands to make changes in the files present in the directory.
+	 When we initiliaze a repository, a .git files appear in the directory and now
+	 we can use git commands to make changes in the files present in the directory.
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+How is the staging area different from the working directory and the repository?
+ What value do you think it offers?
 Thoughts:
-	 A good way to commit the changes is one logical change per commit so if there are two files, we want to add in single commit then we have to add it first to staging area one by one and then we can commit them in bundle.
+	 A good way to commit the changes is one logical change per commit so if there
+	  are two files, we want to add in single commit then we have to add it first
+		to staging area one by one and then we can commit them in bundle.
+
+How can you use the staging area to make sure you have one commit per logical
+ change?
+ Thoughts:
+ 					suppose we have make changes in two files and that will count as one
+					logical change then we can transfer those files into staging area and
+					after passing these files into staging area we can commit them into
+					single change.
