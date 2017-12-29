@@ -1,0 +1,17 @@
+How did viewing a diff between two versions of file help you see the bug that
+was introduced?
+
+Thoughts:
+          Well diff function is really useful in order to see the difference
+          between two versions of files. It helped me to find out my typos and
+          other silly mistakes.
+          diff organise the differences and highlighted them for us to see.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+Thoughts:
+         Here comes the reflections into the game, because you can see entire
+         history of your work and you can easily find the mistakes that you were
+         doing and that really helps you learn.
+         
