@@ -32,4 +32,15 @@ Thoughts:
 				related to their parent commit and if there is any commit which is not
 				related to any branch we can easily find out by diagrams.
 
-				
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+Thoughts:
+         When we merge two branches then merge version will have all the changes
+				 introduced in both branches.
+				 suppose we are merging branch2 into branch1 then the command will be
+				        git merge branch1 branch2, or git checkout brach1 and then
+								    git merge branch2.
+
+				We represent the it in the diagram the way we do because it helps us in
+				understanding and keep track of our merging. By representing it in
+				diagram we can understand the structure of commits in our repository.
