@@ -1,54 +1,56 @@
 What happens when you initialize a repository? Why do you need to do it?
 Thoughts:
-	 When we initiliaze a repository, a .git files appear in the directory and now
+   When we initiliaze a repository, a .git files appear in the directory and now
 	 we can use git commands to make changes in the files present in the directory.
 
 How is the staging area different from the working directory and the repository?
  What value do you think it offers?
 Thoughts:
-	 A good way to commit the changes is one logical change per commit so if there
-	  are two files, we want to add in single commit then we have to add it first
-		to staging area one by one and then we can commit them in bundle.
+   A good way to commit the changes is one logical change per commit so if there
+	 are two files, we want to add in single commit then we have to add it first
+	 to staging area one by one and then we can commit them in bundle.
 
 How can you use the staging area to make sure you have one commit per logical
  change?
  Thoughts:
- 					suppose we have make changes in two files and that will count as one
-					logical change then we can transfer those files into staging area and
-					after passing these files into staging area we can commit them into
-					single change.
+   suppose we have make changes in two files and that will count as one
+   logical change then we can transfer those files into staging area and
+   after passing these files into staging area we can commit them into
+   single change.
+
+
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 Thoughts:
-					Branches are really helpful when you want to test new features but you
-					don't want to introduced in your master branch.
-					Suppose you want to make different language version of your app then
-					you can use the branch feature.
+   Branches are really helpful when you want to test new features but you
+	 don't want to introduced in your master branch.
+	 Suppose you want to make different language version of your app then
+	 you can use the branch feature.
 
 How do the diagrams help you visualize the branch structure?
 Thoughts:
-				Diagrams helps you to visualize the branch structure, each commit is
-				related to their parent commit and if there is any commit which is not
-				related to any branch we can easily find out by diagrams.
+   Diagrams helps you to visualize the branch structure, each commit is
+	 related to their parent commit and if there is any commit which is not
+	 related to any branch we can easily find out by diagrams.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 Thoughts:
-         When we merge two branches then merge version will have all the changes
-				 introduced in both branches.
-				 suppose we are merging branch2 into branch1 then the command will be
-				        git merge branch1 branch2, or git checkout brach1 and then
-								    git merge branch2.
+   When we merge two branches then merge version will have all the changes
+	 introduced in both branches.
+	 suppose we are merging branch2 into branch1 then the command will be
+	 git merge branch1 branch2, or git checkout brach1 and then
+	 git merge branch2.
 
-				We represent the it in the diagram the way we do because it helps us in
-				understanding and keep track of our merging. By representing it in
-				diagram we can understand the structure of commits in our repository.
+	 We represent the it in the diagram the way we do because it helps us in
+	 understanding and keep track of our merging. By representing it in
+	 diagram we can understand the structure of commits in our repository.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
 Thoughts:
-				 Git merges two branches automatically but if there are differences like
-				 same function have different body in both branches then merging
-				 conflict occurs and you have to do some fixing and then you have to
-				 manually merge the branches.
+   Git merges two branches automatically but if there are differences like
+	 same function have different body in both branches then merging
+	 conflict occurs and you have to do some fixing and then you have to
+	 manually merge the branches.
