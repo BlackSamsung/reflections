@@ -44,3 +44,11 @@ Thoughts:
 				We represent the it in the diagram the way we do because it helps us in
 				understanding and keep track of our merging. By representing it in
 				diagram we can understand the structure of commits in our repository.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+Thoughts:
+				 Git merges two branches automatically but if there are differences like
+				 same function have different body in both branches then merging
+				 conflict occurs and you have to do some fixing and then you have to
+				 manually merge the branches.
