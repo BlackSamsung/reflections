@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+Thoughts:
+  Remote repository is helpful if you want to push your local repository to Github account and make it public.
