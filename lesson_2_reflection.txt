@@ -43,7 +43,7 @@ Thoughts:
 	 git merge branch1 branch2, or git checkout brach1 and then
 	 git merge branch2.
 
-	 We represent the it in the diagram the way we do because it helps us in
+	 We represent it in the diagram the way we do because it helps us in
 	 understanding and keep track of our merging. By representing it in
 	 diagram we can understand the structure of commits in our repository.
 
