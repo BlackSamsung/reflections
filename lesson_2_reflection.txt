@@ -1,6 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
 Thoughts:
-   When we initiliaze a repository, a .git files appear in the directory and now
+   When we initiliaze a repository, a .git file appears in the directory and now
 	 we can use git commands to make changes in the files present in the directory.
 
 How is the staging area different from the working directory and the repository?
@@ -13,7 +13,7 @@ Thoughts:
 How can you use the staging area to make sure you have one commit per logical
  change?
  Thoughts:
-   suppose we have make changes in two files and that will count as one
+   Suppose we have make changes in two files and that will count as one
    logical change then we can transfer those files into staging area and
    after passing these files into staging area we can commit them into
    single change.

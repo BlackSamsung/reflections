@@ -1,3 +1,13 @@
 When would you want to use a remote repository rather than keeping all your work local?
 Thoughts:
-  Remote repository is helpful if you want to push your local repository to Github account and make it public.
+  Remote repository is helpful if you want to push your local repository to
+  Github account and make it public.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+Thoughts:
+  Having manually pull changes gives you authority that you want to take that
+  change or not in your project.
+  If git automatically stays up-to-date with the remote repository then the
+  change will automatically be pulled in your local machine whether you want to
+  take it or not and you would not like it to be happened.
