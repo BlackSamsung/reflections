@@ -11,3 +11,9 @@ Thoughts:
   If git automatically stays up-to-date with the remote repository then the
   change will automatically be pulled in your local machine whether you want to
   take it or not and you would not like it to be happened.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+Because it will help you to keep track of what other contributors are commiting
+and it gives you the state of your repository that you are ahead, behind, up-to-
+date or out of sync.
