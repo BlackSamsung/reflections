@@ -24,4 +24,12 @@ If I'm not using Git or Github while collaborating on a project, I might use
 other options like shared folder, dropbox or google docs but these all can't
 replace Git version control. Because it gives you the flexibility to make
 changes fearlessly and try out new things on your code and you can find out the
-bugs very easily. 
+bugs very easily.
+
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+Master branch is the official version of your project and you want it to run at
+any time so if you are modifying your code or want to add new feature you should
+make a new branch and do the changes. By this way you will not affect the master
+branch and if everything is fine, you can merge master branch into your branch
+later.
